@@ -303,7 +303,7 @@ p {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-image: url(/img1/deal-bg.jpg);
+  background-image: url(img1/deal-bg.jpg);
   width: 100%;
   height: 40vh;
   background-size: cover;
@@ -331,7 +331,7 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  background-image: url(/img1/blog-5.jpg);
+  background-image: url(img1/blog-5.jpg);
   min-width: 580px;
   height: 50vh;
   background-size: cover;
@@ -339,7 +339,7 @@ p {
   padding: 30px;
 }
 #sm-banner .banner-box2 {
-  background-image: url(/img1/banner-2.jpg);
+  background-image: url(img1/banner-2.jpg);
 }
 #sm-banner h4 {
   color: #fff;
@@ -387,7 +387,7 @@ button.white {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  background-image: url(/img1/banner-1.jpg);
+  background-image: url(img1/banner-1.jpg);
   min-width: 30%;
   height: 30vh;
   background-size: cover;
@@ -396,10 +396,10 @@ button.white {
   margin-bottom: 20px;
 }
 #banner3 .banner-box2 {
-  background-image: url(/img1/8.jpg);
+  background-image: url(img1/8.jpg);
 }
 #banner3 .banner-box3 {
-  background-image: url(/img1/3.jpg);
+  background-image: url(img1/3.jpg);
 }
 #banner3 h2 {
   color: #fff;
@@ -416,7 +416,7 @@ button.white {
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
-  background-image: url(/img1/b14.png);
+  background-image: url(img1/b14.png);
   background-position: 20% 30%;
   background-repeat: no-repeat;
   background-color: #004225;
@@ -506,7 +506,7 @@ footer .copyright {
 }
 
 #page-header {
-  background-image: url(/img1/clothing.jpg);
+  background-image: url(img1/clothing.jpg);
   width: 100%;
   height: 80vh;
   background-size: cover;
@@ -521,7 +521,7 @@ footer .copyright {
 }
 
 #page-header1 {
-  background-image: url(/img1/groceries.jpg);
+  background-image: url(img1/groceries.jpg);
   width: 100%;
   height: 80vh;
   background-size: cover;
@@ -614,7 +614,7 @@ footer .copyright {
   line-height: 25px;
 }
 #page-header.blog-header {
-  background-image: url(/img1/b19.jpg);
+  background-image: url(img1/b19.jpg);
 }
 #blog {
   padding: 150px 150px 0 150px;
@@ -671,7 +671,7 @@ footer .copyright {
   z-index: -9;
 }
 #page-header.about-header {
-  background-image: url(/img1/b4.jpg);
+  background-image: url(img1/b4.jpg);
 }
 
 #about-head {
@@ -694,7 +694,7 @@ footer .copyright {
 #about-head .profile-img {
   width: 390px;
   height: 370px;
-  background-image: url(/img1/Saida.jpeg);
+  background-image: url(img1/Saida.jpeg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
