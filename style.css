@@ -654,38 +654,19 @@ footer .copyright {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  flex-wrap: wrap;
-  row-gap: 50px;
-  color: #222;
+  width: 100%;
+  padding-bottom: 90px;
 }
-#about-head .saida {
-  width: 50%;
-  line-height: 30px;
-}
-#about-head .about {
-  margin-left: 100px;
-  margin-right: 100px;
-}
-
 #about-head .profile-img {
-  width: 390px;
-  height: 370px;
-  background-image: url(img1/Saida.jpeg);
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-
-  /* background-color: red; */
+  width: 50%;
+  margin-left: 20px;
 }
-
 #about-head img {
   width: 100%;
-  height: 100%;
+  height: 400px;
+  object-fit: cover;
 }
-#about-head div {
-  padding-right: 40px;
-}
-#about-head div .saida {
+#about-head .saida {
   width: 50%;
 }
 #about-app {
@@ -878,9 +859,9 @@ footer .copyright {
 }
 
 @media (max-width: 960px) {
-  #about-head .saida {
+  /* #about-head .saida {
     width: 100%;
-  }
+  } */
 }
 
 @media (max-width: 799px) {
@@ -932,15 +913,7 @@ footer .copyright {
   #lg-bag {
     display: none;
   }
-  /* #hero {
-    height: 70vh;
-    background-size: cover;
-    background-position: top 30% right 30%;
-    padding: 0 80px;
-  }
-  #hero .groceryimg img {
-    width: 220px;
-  } */
+
   h1 {
     font-size: 35px;
   }
@@ -1002,17 +975,6 @@ footer .copyright {
   #header {
     padding: 10px 30px;
   }
-  /* .carousel-item {
-    height: 50vh;
-    object-fit: cover;
-  } */
-  /* #hero {
-    padding: 0 20px;
-    background-position: 55%;
-  }
-  #hero .groceryimg img {
-    width: 150px;
-  } */
   h1 {
     font-size: 25px;
   }
@@ -1087,14 +1049,17 @@ footer .copyright {
     width: 100%;
   }
   #about-head {
+    display: flex;
     flex-direction: column;
+    align-items: flex-start;
   }
-  #about-head img {
+  #about-head .profile-img {
     width: 100%;
+    margin-right: 0px;
     margin-bottom: 20px;
   }
-  #about-head div {
-    padding-left: 0px;
+  #about-head .saida {
+    width: 100%;
   }
   #about-app video {
     width: 100%;
