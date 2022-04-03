@@ -59,11 +59,27 @@ a h4 {
   font-size: 2.5rem;
   color: #004225;
 }
-#header {
+#title {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px 80px;
+  margin: 0 40px;
+}
+#sign-in a {
+  text-decoration: none;
+  font-size: 15px;
+  color: #1a1a1a;
+  font-weight: 700;
+}
+#sign-in a:hover {
+  color: #004225;
+}
+#header {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 80px;
   background: #c9cbce;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
   z-index: 999;
@@ -86,8 +102,8 @@ a h4 {
 }
 #navbar li a {
   text-decoration: none;
-  font-size: 16px;
-  font-weight: 600;
+  font-size: 18px;
+  font-weight: 700;
   color: #1a1a1a;
   transition: 0.3s ease;
 }
@@ -105,12 +121,43 @@ a h4 {
   bottom: -4px;
   left: 20px;
 }
+.submenu {
+  position: absolute;
+  background-color: #c9cbce;
+  width: 200px;
+  left: 0;
+  display: none;
+  padding: 20px;
+}
+.submenu2 {
+  position: absolute;
+  left: 100%;
+  width: 200px;
+  top: 0;
+  background-color: #c9cbce;
+  display: none;
+  padding: 20px;
+}
+.submenu li,
+.submenu2 li {
+  margin-bottom: 10px;
+}
+#navbar li:hover > .submenu {
+  display: block;
+}
+.submenu li:hover > .submenu2 {
+  display: block;
+}
 #mobile {
   display: none;
   align-items: center;
 }
 #close {
   display: none;
+}
+
+.fa-angle-right {
+  float: right;
 }
 .carousel-item {
   height: 90vh;
@@ -122,7 +169,7 @@ a h4 {
   object-fit: cover;
 }
 .carousel-caption {
-  top: 20%;
+  top: 30%;
 }
 .carousel-caption h2 {
   color: #fff;
@@ -735,6 +782,12 @@ footer .copyright {
   width: 100%;
   height: 100%;
 }
+.guest {
+  text-align: center;
+  font-family: "spartan", sans-serif;
+  font-size: 35px;
+  margin-top: 10px;
+}
 #form-details form {
   width: 100%;
   display: flex;
@@ -875,6 +928,7 @@ footer .copyright {
     object-fit: cover;
   }
   #navbar {
+    position: absolute;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -891,6 +945,17 @@ footer .copyright {
   }
   #navbar li {
     margin-bottom: 25px;
+  }
+  .submenu {
+    position: absolute;
+    position: relative;
+    width: 150%;
+    left: 0;
+  }
+  .submenu2 {
+    position: relative;
+    width: 100%;
+    left: 0;
   }
   #navbar.active {
     right: 0px;

@@ -13,17 +13,36 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
+    <section id="title">
+        <a href="index.html"><h4 class="logo">Woolsmorth</h4></a>
+        <div id="sign-in">
+            <a href = "Sign-in.html">Sign in</a>
+        </div>
+    </section>
     <section id="header">
-        <a href="#"><h4 class="logo">Woolsmorth</h4></a>
-
         <div>
             <ul id="navbar">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="groceries.html">Groceries</a></li>
-                <li><a href="clothing.html">Clothing</a></li>
+                <li><a href="index.html" class="active">Home</a></li>
                 <li><a href="about.html">About</a></li>
+                <li><a href="">Catalogue</a>
+                    <ul class="submenu">
+                        <li><a href="">Groceries</a>
+                            <ul class="submenu2">
+                                <li><a href="cereals.html">Cereals</a></li>
+                                <li><a href="canned.html">Canned Food</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">Clothing</a>
+                            <ul class="submenu2">
+                                <li><a href="men.html">Men</a></li>
+                                <li><a href="women.html">Women</a></li>
+                                <li><a href="kids.html">Kids</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
                 <li><a href="blog.html">Blog</a></li>
-                <li><a href="product.html" class="active">Product</a></li>
+            
                 <li><a href="contact.html">Contact</a></li>
                 <li id="lg-bag"><a href="cart.html"><i class="far fa-shopping-cart"></i></a></li>                
                 <a href="#" id="close"><i class="fas fa-times"></i></a>

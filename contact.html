@@ -13,17 +13,36 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
+    <section id="title">
+        <a href="index.html"><h4 class="logo">Woolsmorth</h4></a>
+        <div id="sign-in">
+            <a href = "Sign-in.html">Sign in</a>
+        </div>
+    </section>
     <section id="header">
-        <a href="#"><h4 class="logo">Woolsmorth</h4></a>
-
         <div>
             <ul id="navbar">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="groceries.html">Groceries</a></li>
-                <li><a href="clothing.html">Clothing</a></li>
+                <li><a href="index.html" >Home</a></li>
                 <li><a href="about.html">About</a></li>
+                <li><a href="">Catalogue</a>
+                    <ul class="submenu">
+                        <li><a href="">Groceries</a>
+                            <ul class="submenu2">
+                                <li><a href="cereals.html">Cereals</a></li>
+                                <li><a href="canned.html">Canned Food</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">Clothing</a>
+                            <ul class="submenu2">
+                                <li><a href="men.html">Men</a></li>
+                                <li><a href="women.html">Women</a></li>
+                                <li><a href="kids.html">Kids</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
                 <li><a href="blog.html">Blog</a></li>
-                <li><a href="product.html">Product</a></li>
+                
                 <li><a href="contact.html" class="active">Contact</a></li>
                 <li id="lg-bag"><a href="cart.html"><i class="far fa-shopping-cart"></i></a></li>                
                 <a href="#" id="close"><i class="fas fa-times"></i></a>
@@ -39,6 +58,19 @@
             <h2>Talk to us</h2>
             <p>We love hearing from you</p>
         </div>
+    </section>
+    &nbsp;
+    <h1 class="guest">GUEST BOOK</h1>
+    <section id="form-details">
+        <form action="">
+            <span>Leave a message</span>
+            <h2>We love to hear from you</h2>
+            <input type="text" placeholder="Your Name">
+            <input type="text" placeholder="E-mail">
+            <input type="text" placeholder="Subject">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <button class="normal">Submit</button>
+        </form>
     </section> 
     <section id="contact-details" class="section-p1">
         <div class="details">
@@ -67,17 +99,6 @@
         <div class="map">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9933.262604240692!2d-0.13593615341334056!3d51.50742477416097!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604ce37bbdb95%3A0x5120415568fd2d8b!2sCentral%20London%2C%20London%20SW1A%202DR%2C%20UK!5e0!3m2!1sen!2ske!4v1647354116791!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </div>
-    </section>
-    <section id="form-details">
-        <form action="">
-            <span>Leave a message</span>
-            <h2>We love to hear from you</h2>
-            <input type="text" placeholder="Your Name">
-            <input type="text" placeholder="E-mail">
-            <input type="text" placeholder="Subject">
-            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
-            <button class="normal">Submit</button>
-        </form>
     </section>
     <section id="newsletter" class="section-p1 section-m1" >
         <div class="newstext">
